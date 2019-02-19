@@ -1,24 +1,23 @@
-"Pin Information for the MAX®10 10M50DA Device
+"Pin Information for the MAX®10 10M40DC Device
  Version 2016.12.23 
 Note (1)"										
-							
 Bank Number	VREF	Pin Name/Function	Optional Function(s)	Configuration Function	Dedicated Tx/Rx Channel	Emulated LVDS Output Channel	IO Performance	F484	DQS for X8	DQS for X16
-1A	VREFB1N0	IO	ADC1IN1		DIFFIO_RX_L1n	DIFFOUT_L1n	Low_Speed	F5		
-1A	VREFB1N0	IO	ADC2IN1		DIFFIO_RX_L2n	DIFFOUT_L2n	Low_Speed	E4		
-1A	VREFB1N0	IO	ADC1IN2		DIFFIO_RX_L1p	DIFFOUT_L1p	Low_Speed	F4		
-1A	VREFB1N0	IO	ADC2IN8		DIFFIO_RX_L2p	DIFFOUT_L2p	Low_Speed	E3		
-1A	VREFB1N0	IO	ADC1IN3		DIFFIO_RX_L3n	DIFFOUT_L3n	Low_Speed	J8		
-1A	VREFB1N0	IO	ADC2IN3		DIFFIO_RX_L4n	DIFFOUT_L4n	Low_Speed	G4		
-1A	VREFB1N0	IO	ADC1IN4		DIFFIO_RX_L3p	DIFFOUT_L3p	Low_Speed	J9		
-1A	VREFB1N0	IO	ADC2IN4		DIFFIO_RX_L4p	DIFFOUT_L4p	Low_Speed	F3		
-1A	VREFB1N0	IO	ADC1IN5		DIFFIO_RX_L5n	DIFFOUT_L5n	Low_Speed	J4		
-1A	VREFB1N0	IO	ADC2IN5		DIFFIO_RX_L6n	DIFFOUT_L6n	Low_Speed	H4		
-1A	VREFB1N0	IO	ADC1IN6		DIFFIO_RX_L5p	DIFFOUT_L5p	Low_Speed	H3		
-1A	VREFB1N0	IO	ADC2IN6		DIFFIO_RX_L6p	DIFFOUT_L6p	Low_Speed	G3		
-1A	VREFB1N0	IO	ADC1IN7		DIFFIO_RX_L7n	DIFFOUT_L7n	Low_Speed	K5		
-1A	VREFB1N0	IO	ADC2IN7		DIFFIO_RX_L8n	DIFFOUT_L8n	Low_Speed	K4		
-1A	VREFB1N0	IO	ADC1IN8		DIFFIO_RX_L7p	DIFFOUT_L7p	Low_Speed	K6		
-1A	VREFB1N0	IO	ADC2IN2		DIFFIO_RX_L8p	DIFFOUT_L8p	Low_Speed	J3		
+1A	VREFB1N0	IO			DIFFIO_RX_L1n	DIFFOUT_L1n	Low_Speed	F5		
+1A	VREFB1N0	IO			DIFFIO_RX_L2n	DIFFOUT_L2n	Low_Speed	E4		
+1A	VREFB1N0	IO			DIFFIO_RX_L1p	DIFFOUT_L1p	Low_Speed	F4		
+1A	VREFB1N0	IO			DIFFIO_RX_L2p	DIFFOUT_L2p	Low_Speed	E3		
+1A	VREFB1N0	IO			DIFFIO_RX_L3n	DIFFOUT_L3n	Low_Speed	J8		
+1A	VREFB1N0	IO			DIFFIO_RX_L4n	DIFFOUT_L4n	Low_Speed	G4		
+1A	VREFB1N0	IO			DIFFIO_RX_L3p	DIFFOUT_L3p	Low_Speed	J9		
+1A	VREFB1N0	IO			DIFFIO_RX_L4p	DIFFOUT_L4p	Low_Speed	F3		
+1A	VREFB1N0	IO			DIFFIO_RX_L5n	DIFFOUT_L5n	Low_Speed	J4		
+1A	VREFB1N0	IO			DIFFIO_RX_L6n	DIFFOUT_L6n	Low_Speed	H4		
+1A	VREFB1N0	IO			DIFFIO_RX_L5p	DIFFOUT_L5p	Low_Speed	H3		
+1A	VREFB1N0	IO			DIFFIO_RX_L6p	DIFFOUT_L6p	Low_Speed	G3		
+1A	VREFB1N0	IO			DIFFIO_RX_L7n	DIFFOUT_L7n	Low_Speed	K5		
+1A	VREFB1N0	IO			DIFFIO_RX_L8n	DIFFOUT_L8n	Low_Speed	K4		
+1A	VREFB1N0	IO			DIFFIO_RX_L7p	DIFFOUT_L7p	Low_Speed	K6		
+1A	VREFB1N0	IO			DIFFIO_RX_L8p	DIFFOUT_L8p	Low_Speed	J3		
 1B	VREFB1N0	IO			DIFFIO_RX_L15n	DIFFOUT_L15n	Low_Speed	K8		
 1B	VREFB1N0	IO			DIFFIO_RX_L16n	DIFFOUT_L16n	Low_Speed	D3		
 1B	VREFB1N0	IO		JTAGEN	DIFFIO_RX_L15p	DIFFOUT_L15p	Low_Speed	K9		
@@ -363,7 +362,10 @@ Bank Number	VREF	Pin Name/Function	Optional Function(s)	Configuration Function	D
 8	VREFB8N0	IO			DIFFIO_RX_T53p	DIFFOUT_T53p	Low_Speed	C3		
 8	VREFB8N0	IO	PLL_T_CLKOUTn		DIFFIO_RX_T52n	DIFFOUT_T52n	Low_Speed	E6		
 8	VREFB8N0	IO			DIFFIO_RX_T53n	DIFFOUT_T53n	Low_Speed	C2		
+		GND						G5		
+		GND						J5		
 		GND						K3		
+		GND						H5		
 		GND						Y9		
 		GND						Y15		
 		GND						Y12		
@@ -421,7 +423,6 @@ Bank Number	VREF	Pin Name/Function	Optional Function(s)	Configuration Function	D
 		GND						AA18		
 		GND						A22		
 		GND						A1		
-		REFGND						H5		
 		VCC						N12		
 		VCC						N10		
 		VCC						M13		
@@ -432,6 +433,7 @@ Bank Number	VREF	Pin Name/Function	Optional Function(s)	Configuration Function	D
 		VCC						L10		
 		VCC						K13		
 		VCC						K11		
+		VCC						J7		
 		DNU						L3		
 		VCCD_PLL1						T7		
 		VCCD_PLL2						G16		
@@ -480,13 +482,10 @@ Bank Number	VREF	Pin Name/Function	Optional Function(s)	Configuration Function	D
 		NC						E5		
 		VCCA1						R8		
 		VCCA2						H15		
+		VCCA3						H6		
 		VCCA3						H8		
+		VCCA3						H7		
 		VCCA4						T15		
-		VCCA_ADC						H7		
-		VCCINT						J7		
-		ADC_VREF						H6		
-		ANAIN1						G5		
-		ANAIN2						J5		
 Note:										
 "(1) For more information about pin definition and pin connection guidelines, refer to the"										
 MAX 10 FPGA Device Family Pin Connection Guidelines.										
